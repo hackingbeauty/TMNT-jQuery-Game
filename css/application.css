@@ -1,0 +1,36 @@
+body {
+  font-size: 12px;
+}
+#chooser {
+  z-index: 1;
+}
+#chooser .bio {
+  cursor: move;
+  border: 1px solid white;
+}
+#chooser .bio:hover {
+  border: 1px solid black;
+}
+#arena {
+  background: white;
+  height: 80px;
+  width: 225px;
+  padding: 20px;
+  position: relative;
+  z-index: -1;
+}
+#arena .goodguy {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+#arena .enemy {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+}
+#arena .april {
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
